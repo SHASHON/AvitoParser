@@ -50,7 +50,7 @@ def levenshtein_distance(s1, s2):
     return previous_row[-1]
 
 def time_sleep():
-    random_sleep_time = random.uniform(0.5, 1.5)
+    random_sleep_time = random.uniform(0.8, 1.5)
     time.sleep(random_sleep_time)
 
 # разница в процентном соотношении между строками
