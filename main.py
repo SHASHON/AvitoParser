@@ -301,5 +301,5 @@ class ParserAvito:
 
 if __name__ == '__main__':
     # входные параметры: 1-запрос пользователя, 2-количество объявлений сколько будем парсить или до конца, если об. меньше
-    new_parser = ParserAvito('Toyota Camry',5)
+    new_parser = ParserAvito('Toyota Camry',10000)
     new_parser.start_parsing()
